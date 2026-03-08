@@ -32,6 +32,7 @@ JavaScript (Vanilla JS):
 Склонируйте репозиторий или скачайте архив.
 Откройте файл index.html в любом современном браузере.
 Или перейдите по ссылке: [https://karinakit.github.io/card-customizer/]
+
 📸 Как это выглядит: 
 ![Скриншот сайта](./img/card.png)
 
