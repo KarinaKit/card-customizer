@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Задача 3</title>
+</head>
+<body>
+    <h1 class="title">Создай свою собственную карту</h1>
+    <div class="box">
+        <form action="#" class="form">
+            <label class="text">
+                <p class="label__text">Введите свой текст на карте:</p>
+                <input type="text" name="text" class="input__text">
+            </label>
+            <label class="select">
+                <p class="select__text"> цвета карты:</p>
+                <select name="choice" id="choices">
+                    <option class="choice__select" value="red">Красный</option>
+                    <option class="choice__select" value="green">Зеленый</option>
+                    <option class="choice__select" value="yellow">Желтый</option>
+                    <option class="choice__select" value="blue">Синий</option>
+                    <option class="choice__select" value="violet">Фиолетовый</option>
+                    <option class="choice__select" value="black">Черный</option>
+                    <option class="choice__select" value="gray">Серый</option>
+                    <option class="choice__select" value="#4d220e">Коричневый</option>
+                    <option class="choice__select" value="pink">Розовый</option>
+                    <option class="choice__select" value="#252850">Ночной синий</option>
+                    <option class="choice__select" value="DeepPink">Малиновый</option>
+                </select>
+            </label>
+
+            <p class="text__img">Картинка на карте:</p>
+
+            <label class="img__radio-card">
+                <label class="img-item">
+                    <input type="radio" value="deers" name="customRadio" class="radio-hidden">
+                    <img src="./img/deer.jpg" alt="Олени в лесу к реки" class="card__img" width="170px" height="95px">
+                </label>
+
+                <label class="img-item">
+                    <input type="radio" value="forest" name="customRadio" class="radio-hidden">
+                    <img src="./img/forest.jpg" alt="Лес" class="card__img" width="170px">
+                </label>
+
+                <label class="img-item">
+                    <input type="radio" value="apples" name="customRadio" class="radio-hidden">
+                    <img src="./img/apples.jpg" alt="Яблоки" class="card__img" width="170px">
+                </label>
+
+                <label class="img-item">
+                    <input type="radio" value="castle" name="customRadio" class="radio-hidden">
+                    <img src="./img/castle.jpg" alt="Замок" class="card__img" width="170px" height="95px">
+                </label>
+            </label>
+            <p class="text__file">Или загрузи свою картнку</p>
+            <label>
+                <input class="file" type="file" name="file-upload">
+            </label>
+        </form>
+
+            <p>Ваша карта</p>
+            <div class="my__card">
+                <div class="card__chip"></div>
+                <p class="card__txt">MasterCard</p>
+            </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
